@@ -1,0 +1,129 @@
+body {
+	text-align: center;
+	background-color: #e1e1e1;
+}
+
+a {
+	text-decoration: none;
+}
+
+.main-header {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: Showcard Gothic;
+}
+
+.button {
+	background: purple;
+	color: white;
+	padding: 10px 25px;
+	box-shadow: 0 10px 15px #000;
+}
+
+.button:hover {
+	background: grey;
+	color: purple;
+}
+
+#main-menu {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.showcase {
+	margin-bottom: 30px;
+	padding: 250px;
+	background-image: url(../images/bridge.jpg);
+	background-repeat: no repeat;
+	background-size: cover;
+	box-shadow: 15px 10px 15px #000;
+}
+
+.main-article {
+	margin-bottom: 5px;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 3fr 1fr;
+}
+
+.main-article-left {
+	font-family: Informal Roman;
+	text-align: left;
+	color: #faf6c9;
+	background: #707070;
+	padding: 40px;
+	display: grid;
+	grid-gap: 40px;
+	grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+	font-family: Pristina;
+}
+
+.texto {
+	box-shadow: 15px 10px 15px #000;
+}
+
+.autumn {
+	box-shadow: 15px 10px 15px #000;
+}
+
+.main-article-left p {
+	margin: 10px 0 20px 0;
+}
+
+.main-article-left h3 {
+	margin-top: 5px;
+}
+
+.readmore1 {
+	color: #faf6c9;
+	padding: 5px 5px;
+	box-shadow: 0 0 10px #000000;
+}
+
+.readmore2 {
+	color: white;
+	padding: 5px 5px;
+	box-shadow: 0 0 10px #000000;
+}
+
+.main-article-right {
+	font-family: Informal Roman;
+	color: white;
+	text-align: center;
+	background: #707070;
+	box-shadow: 0 0 10px #9f8260;
+}
+
+.main-article-right h4 {
+	margin-top: 20px;
+}
+
+h4 {
+	font-family: Rosewood Std;
+	font-size: 25px;
+}
+
+.main-article-right p {
+	margin: 10px 10px 20px 10px;
+}
+
+.london-bridge {
+	box-shadow: 15px 10px 15px #000;
+	margin: 15px 5px 5px 5px;
+}
+
+.footer {
+	background: #464646;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: white;
+	font-size: 3;
+}
